@@ -1,0 +1,169 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE-edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, intial-scale=1.0" name="viewport">
+<title>Shopping Website</title>
+<!--fav-icon---------------->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+	<!--style----->
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+		body{
+			font-family:poppins;
+		}
+
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            margin-left: 71em;
+            cursor: pointer;
+            }
+
+        .button1 {background-color: #0b9d8a;}
+        
+
+        
+	</style>
+<!--css--------------->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+
+
+</head>
+<body>
+    <nav> 
+        <!--social-links-and-phone-number----------------->
+        <div class="social-call">
+            <!--social-links--->
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!--phone-number------>
+            <div class="phone">
+                <span>Call: +123456789</span>
+            </div>
+        </div>
+        <!--menu-bar----------------------------------------->
+        <div class="navigation">
+            <!--logo------------>
+            <a href="index.html" class="logo"><img src="images/LOGO2.png"></a>
+            <!--menu-icon------------->
+            <div class="toggle"></div>
+            <!--menu----------------->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li  class="shop"><a href="#" >Shop</a></li>
+                <li><a href="#">Men</a>
+                    <!--lable---->
+                    <span class="sale-lable">Sale</span>
+                </li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+            <!--right-menu----------->
+            <div class="right-menu">
+                <!--search-------->
+                <a href="#" class="search">
+                    <i class="fas fa-search"></i>
+                </a>
+                <!--user-------->
+                <a href="#" class="user">
+                    <i class="far fa-user"></i>
+                </a>
+                <!--cart icon-------->
+                <a href="#">
+                    <i class="fas fa-shopping-cart">
+                        <span class="num-cart-product">0</span>
+                    </i>
+                </a>
+            </div>
+            </div>
+    </nav>
+
+    <div class="container-products">
+        <div class="product-header">
+            <h4 class="product-title">PRODUCT</h5>
+            <h4 class="price">PRICE</h5>
+            <h4 class="quantity">QUANTITY</h5>
+            <h4 class="total">TOTAL</h5>
+        </div>
+        <div class="products">
+
+        </div>
+    </div>
+
+    <form method="get" action="payment.html">
+        <button type="submit" class="button button1">CHECKOUT</button>
+    </form>    
+    
+
+
+
+
+
+
+
+
+
+    <!--services------------------------->
+    <section class="services">
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping for all US order</p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% Money Back</span>
+            <p>You have 30 days to Return</p>
+        </div>
+
+        
+    </section>
+    <!--footer---------------------------->
+    <footer>
+        <!--copyright-------------->
+        <span class="copyright">
+            Copyright 2022 - NewNavy
+        </span>
+        <!--subcribe---------------->
+        <div class="subscribe">
+            <form>
+            <input type="email" placeholder="Example@gmail.com" required/>
+            <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+
+
+    <!--JQuery--------------->
+    <script src="js/JQuery.js"></script>
+
+    <!--main js--------------->
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!--using FontAwesome--------------->
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+
+</body>
+</html>

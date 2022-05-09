@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE-edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, intial-scale=1.0" name="viewport">
+<title>Shopping Website</title>
+<!--fav-icon---------------->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+	<!--style----->
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+		body{
+			font-family:poppins;
+		}
+
+        .heroimage {
+				background-image: url("images/clothing.jpg") ;
+				text-align: center;
+				color:white;
+				font-family: poppins, sans-serif;
+                min-height: 850px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+			}
+
+            .herotext{
+                font-family: poppins, sans-serif;
+                text-align: center;
+                color:white ;
+                font-size:3em;
+                padding-top: 25rem;
+
+            }
+			
+	</style>
+<!--css--------------->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+	
+</head>
+<body>
+    <nav> 
+        <!--social-links-and-phone-number----------------->
+        <div class="social-call">
+            <!--social-links--->
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!--phone-number------>
+            <div class="phone">
+                <span>Call: +123456789</span>
+            </div>
+        </div>
+        <!--menu-bar----------------------------------------->
+        <div class="navigation">
+            <!--logo------------>
+            <a href="index.html" class="logo"><img src="images/LOGO2.png"></a>
+            <!--menu-icon------------->
+            <div class="toggle"></div>
+            <!--menu----------------->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li  class="shop"><a href="#" >Shop</a></li>
+                <li><a href="#">Men</a>
+                    <!--lable---->
+                    <span class="sale-lable">Sale</span>
+                </li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+            <!--right-menu----------->
+        </div>
+    </nav>
+
+    <div class="heroimage">
+        <h4 class="herotext">Your order has been confirmed, thank you for shopping with New Navy.</h4>
+    </div>
+
+
+
+
+    <!--footer---------------------------->
+<footer>
+    <!--copyright-------------->
+    <span class="copyright">
+        Copyright 2022 - NewNavy
+    </span>
+    <!--subcribe---------------->
+    <div class="subscribe">
+        <form>
+        <input type="email" placeholder="Example@gmail.com" required/>
+        <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</footer>
